@@ -1,0 +1,1162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+.section-1 {
+  background-image: url(images/main-background.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 15px;
+}
+.header {
+  margin: 0px 220px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.travel {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.loc-cont {
+  max-width: 720px;
+  display: flex;
+  justify-content: flex-end;
+}
+.location {
+  max-width: 35%;
+  margin-right: 3rem;
+}
+.contacts {
+  font-weight: 700;
+  max-width: 30%;
+  display: flex;
+}
+.box {
+  margin: 0px 190px;
+  max-width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+.search-box {
+  background: rgba(207, 207, 207, 0.34);
+  width: 200px;
+  border: 2px solid grey;
+  border-radius: 100px;
+  padding: 0px 10px;
+}
+.search {
+  width: 85%;
+  background: none;
+  border: none;
+  float: left;
+  outline: none;
+  color: #555;
+}
+.search-btn {
+  float: right;
+}
+.header-nav {
+  border-radius: 100px;
+  width: 1123px;
+  margin: 0px 25px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 99%;
+}
+.nav-link {
+  text-decoration: none;
+  padding: 0px 15px;
+  transition: 1s ease;
+}
+.nav-link:hover {
+  font-weight: 700;
+  transition: 0.5s ease;
+}
+.nav-contacts-mobile {
+  display: none;
+}
+.intro-text {
+  margin: 100px 220px;
+  max-width: 550px;
+}
+.header-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.sub-header {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.book-visa {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 15px 50px;
+  background: #fcff60;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 10px;
+  transition: 0.2s ease-in;
+}
+.book-visa:hover {
+  color: #fcff60;
+  background: transparent;
+  border: 1px solid #fcff60;
+}
+#offer-to-litva {
+  margin-top: -200px;
+  margin-left: 69%;
+  margin-bottom: 100px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  width: 17rem;
+  box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.25);
+  transition: 1s ease;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.offer-to-litva-title {
+  margin: 0 auto 0;
+}
+#offer-to-litva p {
+  margin-top: 6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+  color: #000000;
+}
+.cost-more {
+  margin: 8px 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cost-more span {
+  padding: 3px 0;
+  width: 63px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  background: #cfcfcf;
+}
+.cost-more a {
+  padding: 3px 0;
+  width: 99px;
+  height: 25px;
+  background: #84e439;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+.appointment-box {
+  margin: 100px auto;
+  border-radius: 10px;
+  max-width: 75vw;
+  background: #345f87;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 50px;
+  position: relative;
+}
+.appointment-title {
+  max-width: 35ch;
+  color: #fff;
+  margin: 1em 0 0.5em 1.6em;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.appointment-details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.appointment-contacts {
+  margin: 17px 10px;
+  padding: 20px;
+}
+#fullname {
+  width: 180px;
+  height: 39px;
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.51);
+}
+#appointment_contacts {
+  border: none;
+  outline: none;
+  width: 240px;
+  height: 39px;
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.51);
+}
+#book-appointment-btn {
+  width: 170px;
+  height: 39px;
+  margin-left: 1em;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  background-color: yellowgreen;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #f2994a;
+  box-shadow: 0px 4px 10px #f2994a;
+  color: #ffffff;
+}
+#book-appointment-btn:active {
+  transform: scale(1.1);
+}
+#booking-appointment-error {
+  color: red;
+  padding-left: 30px;
+}
+.appointment-display-img {
+  position: absolute;
+  bottom: -2em;
+  right: -3em;
+  width: 415px;
+  height: 415px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.appointment-display-img img {
+  width: 100%;
+  height: 100%;
+}
+.accebilities-box {
+  min-width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+.accebilities-box-header {
+  font-size: 25px;
+  font-weight: 900;
+}
+.qualities-card-box {
+  width: 55%;
+  margin: 35px auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.services-card {
+  max-width: 25%;
+}
+.services-card-longer {
+  max-width: 217px;
+}
+.services-card-header {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.services-card-article {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+}
+.section-3 {
+  max-width: 100%;
+  margin: 35px auto;
+}
+.title-box {
+  background-position: center;
+  background-size: auto;
+  font-weight: 900;
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orders {
+  background-image: url(images/beach-view.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title-text {
+  width: 25ch;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.popular-places-card-box {
+  max-width: 85%;
+  margin: 65px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.popular-places-card {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  width: 251px;
+  max-height: 348px;
+  box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: 1s ease;
+}
+.popular-places-card:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+.popular-places-card:before {
+  content: "Visa to Poland";
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
+div {
+  display: inline-block;
+  overflow: hidden;
+}
+.popular-places-card:first-of-type::before {
+  content: "Виза в Литву";
+}
+.popular-places-card:nth-of-type(2)::before {
+  content: "Виза в Польшу";
+}
+.popular-places-card:nth-of-type(3)::before {
+  content: "Виза в Испанию";
+}
+.popular-places-card:nth-of-type(4)::before {
+  content: "Виза в  Чехию c безличной подачей";
+}
+.popular-places-card:nth-of-type(5)::before {
+  content: "Виза в  Болгарию c безличной подачей";
+}
+.popular-places-card:nth-of-type(6)::before {
+  content: "Виза в  Венгрию c безличной подачей";
+}
+.popular-places-card:nth-of-type(7)::before {
+  content: "Виза во Францию";
+}
+.popular-places-card:last-of-type::before {
+  content: "Виза в  Англию";
+}
+.popular-places-img-box img {
+  width: 256px;
+  height: 398px;
+}
+.popular-places-img-box {
+  width: 100%;
+  max-height: 86%;
+  overflow: hidden;
+}
+article {
+  min-height: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cost-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.prev-cost {
+  margin: 10px 0 0 5px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  text-decoration-line: line-through;
+  color: #ff1818;
+}
+.new-cost {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0 0 5px 40%;
+}
+.learn-more-btn-box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.learn-more-btn {
+  text-decoration: none;
+  color: #000000;
+  width: 100%;
+  height: 100%;
+  background-color: #84e439;
+  text-align: center;
+  line-height: 39px;
+}
+.section-4 {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.comments {
+  width: 100%;
+}
+.review {
+  background-image: url(images/street.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.comments-carousel {
+  width: 590px;
+  height: 329px;
+  margin: 50px auto;
+  background: #ffffff;
+  box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+}
+.comment-card-body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  margin: 42px auto;
+  text-align: center;
+}
+.user-logo {
+  width: 125px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.card-title {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.card-text {
+  max-width: 80%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin: auto;
+}
+.carousel-control-next-icon {
+  color: #000 !important;
+}
+.text-black {
+  background: black !important;
+}
+.leave-comment {
+  color: #fff;
+  width: 243px;
+  height: 54px;
+  background: #f2994a;
+  box-shadow: 0px 4px 10px #f2994a;
+  border: 1px solid #f2994a;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+.section-5 {
+  min-width: 100%;
+}
+.box-2 {
+  min-width: 100%;
+  background: #fcff60;
+  height: 61px;
+}
+.footer-nav {
+  margin: 13px auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.link-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.185em;
+  color: #000 !important;
+}
+.footer {
+  background-image: url(images/ocean.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vh;
+  width: 100%;
+  position: relative;
+}
+.top-btn-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 5px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+}
+.top-btn {
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
+.top-btn:hover {
+  color: #000;
+}
+.info-footer {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.loc-footer {
+  margin: 50px 0px;
+  width: 240px;
+  color: #fff;
+}
+.contacts-footer {
+  font-weight: 700;
+  display: flex;
+}
+.social-media-box {
+  margin-top: 80px;
+  width: 220px;
+  color: #000;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.email {
+  display: flex;
+  max-width: 30ch;
+}
+.social-media-icon {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.insta-icon {
+  margin-top: -8px;
+}
+.copyright {
+  margin-top: 60px;
+  width: 300px;
+  color: #fff;
+}
+.logo-mobile {
+  display: none;
+}
+.social-media-box-mobile {
+  display: none;
+}
+.burger-btn {
+  display: none;
+}
+.search-box-mobile {
+  display: none;
+}
+.travel-mobile {
+  display: none;
+}
+.comments-field {
+  width: 590px;
+  height: 349px;
+  margin: 50px auto;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 3px 6px 10px 6px rgba(0, 0, 0, 0.25);
+}
+.comments-field textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  outline: none;
+  padding: 15px;
+}
+.comments-field input {
+  border: none;
+  padding: 10px 25px;
+  color: #fff;
+  background: linear-gradient(-135deg, orange, #f75000);
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  float: right;
+}
+.comments-field {
+  display: none;
+}
+#section-4.comment-field-active .comments-field {
+  display: block;
+}
+
+@media (max-width: 1320px) {
+  .header {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+    padding: 15px 25px;
+    float: right;
+  }
+  .travel {
+    font-size: 18px;
+  }
+  .logo-mobile img {
+    width: 150px;
+  }
+  .logo-mobile p {
+    font-size: 14px;
+  }
+  .travel-mobile {
+    display: block;
+    color: #000 !important;
+    position: absolute;
+    left: 19%;
+    bottom: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  .travel-mobile:hover {
+    color: #b95334 !important;
+  }
+  .burger-btn {
+    position: fixed;
+    display: block;
+    top: 20px;
+    left: 30px;
+    color: #b95334;
+    z-index: 2;
+  }
+  #nav-box.active {
+    display: block;
+    position: fixed;
+    top: 12px;
+    left: -11rem;
+    bottom: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: rgb(223, 223, 228);
+  }
+  .header-nav {
+    padding-top: 30px;
+    width: 270px;
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .nav-item {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+  }
+  .nav-item a {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+  .nav-item a:hover {
+    color: #fff !important;
+    background-color: #b95334;
+  }
+  .search-box {
+    display: none;
+  }
+  .search-box-mobile {
+    display: block;
+    margin: 40px 10px 0 70px;
+    border: 1.5px solid black;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background: rgba(200, 111, 63, 0.733);
+  }
+  .search {
+    color: white;
+  }
+  .search-btn {
+    color: white;
+  }
+  .intro-text {
+    max-width: 59%;
+    margin: 10% 10%;
+  }
+  .header-text {
+    font-size: 40px;
+  }
+  .appointment-display-img {
+    display: none;
+  }
+  .appointment-box {
+    padding: 30px 0 30px 10px;
+    width: 70vw;
+  }
+  .appointment-details {
+    width: 789px;
+  }
+  .popular-places-card-box {
+    max-width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1030px) {
+  .header {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+    padding: 15px 25px;
+    float: right;
+  }
+  .travel {
+    font-size: 18px;
+  }
+  .logo-mobile img {
+    width: 150px;
+  }
+  .logo-mobile p {
+    font-size: 14px;
+  }
+  .burger-btn {
+    position: fixed;
+    display: block;
+    top: 20px;
+    left: 30px;
+    color: #b95334;
+    z-index: 2;
+  }
+  #nav-box.active {
+    display: block;
+    position: fixed;
+    top: 12px;
+    left: -11rem;
+    bottom: 10px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .header-nav {
+    background-color: rgb(223, 223, 228);
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 330px;
+    height: 100vh;
+    width: 230px;
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .nav-item {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+  }
+  .nav-item a {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+  .nav-item a:hover {
+    color: #fff !important;
+    background-color: #b95334;
+  }
+  .search-box {
+    display: none;
+  }
+  .search-box-mobile {
+    display: block;
+    margin: 40px 10px 0 30px;
+    border: 1.5px solid black;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background: rgba(200, 111, 63, 0.733);
+  }
+  .search {
+    color: white;
+  }
+  .search-btn {
+    color: white;
+  }
+  .social-media-mobile {
+    display: block;
+    padding: 50px 0px 0 70px;
+  }
+  .vk-mobile,
+  .facebook-mobile,
+  .insta-mobile {
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .insta-mobile svg {
+    width: 40px;
+    height: 39px;
+  }
+  .intro-text {
+    max-width: 60%;
+    margin: 7% 10%;
+  }
+  .header-text {
+    font-size: 42px;
+  }
+  #offer-to-litva {
+    display: none;
+  }
+  .appointment-box {
+    padding: 0;
+  }
+  .appointment-details {
+    width: 719px;
+  }
+  #appointment_contacts input {
+    margin: 10px auto;
+    display: inline-block;
+  }
+  .appointment-display-img {
+    display: none;
+  }
+  #fullname {
+    width: 40%;
+    margin-left: 0;
+  }
+  #appointment_contacts {
+    width: 58%;
+    margin-left: 0;
+  }
+  #book-appointment-btn {
+    width: 60%;
+    margin: 1% 20% 0;
+  }
+  .accebilities-box {
+    margin: 0;
+  }
+  .services-card {
+    max-width: 36%;
+  }
+  .qualities-card-box {
+    display: block;
+    margin: 5% 0;
+    width: 100%;
+  }
+  .title-text {
+    font-size: 44px;
+  }
+  .popular-places-card-box {
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .popular-places-card {
+    margin: 13px auto;
+    width: 260px;
+  }
+  .popular-places-card img {
+    width: 100%;
+  }
+  .info-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5%;
+  }
+  .social-media-box {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+  .social-media-box-mobile {
+    display: block;
+    margin: 8% 0 0;
+    width: 40%;
+  }
+  .insta-icon-mobile {
+    margin: 1px 7px 0 0;
+    width: 59px;
+    height: 59px;
+  }
+  .facebook-mobile {
+    margin-left: 7px;
+  }
+}
+
+@media (max-width: 832px) {
+  .popular-places-card-box {
+    max-width: 85%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 654px) {
+  .header {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+    padding: 20px 25px;
+    float: right;
+  }
+  .travel {
+    font-size: 15px;
+  }
+  .logo-mobile img {
+    width: 150px;
+  }
+  .logo-mobile p {
+    font-size: 12px;
+  }
+  .burger-btn {
+    position: fixed;
+    display: block;
+    top: 20px;
+    left: 30px;
+    color: #b95334;
+    z-index: 2;
+  }
+  #nav-box.active {
+    display: block;
+    position: fixed;
+    top: 12px;
+    left: -11rem;
+    bottom: 10px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .header-nav {
+    background-color: rgb(223, 223, 228);
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 330px;
+    height: 100vh;
+    width: 230px;
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .nav-item {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+  }
+  .nav-item a {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+  .nav-item a:hover {
+    color: #fff !important;
+    background-color: #b95334;
+  }
+  .search-box {
+    display: none;
+  }
+  b.search-box-mobile {
+    display: block;
+    margin: 40px 10px 0 30px;
+    border: 1.5px solid black;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background: rgba(200, 111, 63, 0.733);
+  }
+  .search {
+    color: white;
+  }
+  .search-btn {
+    color: white;
+  }
+  .intro-text {
+    margin: 7%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .header-text {
+    font-size: 36px;
+  }
+  .appointment-box {
+    padding: 0;
+  }
+  .appointment-contacts input {
+    margin: 10px auto;
+    display: block;
+
+    width: 400px;
+  }
+  .appointment-display-img {
+    display: none;
+  }
+  #fullname,
+  #appointment_contacts,
+  #book-appointment-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+  .accebilities-box {
+    margin: 0;
+  }
+  .services-card {
+    max-width: 100%;
+  }
+  .services-card svg {
+    width: 150px;
+    height: 100px;
+  }
+  .qualities-card-box {
+    display: block;
+  }
+  .title-text {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .popular-places-card-box {
+    max-width: 93%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .popular-places-card {
+    margin: 13px auto;
+    width: 260px;
+  }
+  .popular-places-card img {
+    width: 100%;
+  }
+  .comments-carousel {
+    width: 90%;
+    height: 310px;
+  }
+  .info-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5%;
+  }
+  .social-media-box {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+  .social-media-box-mobile {
+    display: block;
+    margin: 10% 0 0;
+    width: 40%;
+  }
+  .insta-icon-mobile {
+    margin: 1px 7px 0 0;
+    width: 59px;
+    height: 59px;
+  }
+  .facebook-mobile {
+    margin-left: 7px;
+  }
+  .top-btn-box {
+    right: 10px;
+  }
+  .box-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 582px) {
+  .popular-places-card-box {
+    max-width: 93%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .popular-places-card {
+    margin: 13px auto;
+    width: 280px;
+  }
+  .loc-footer {
+    width: 50%;
+  }
+}

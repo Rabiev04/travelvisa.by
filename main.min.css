@@ -1,0 +1,28 @@
+.preloader-2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 3;
+  transition: 1s all;
+  opacity: 1;
+  visibility: visible;
+  background: url(https://supsystic.com/wp-content/uploads/2016/04/cat-loader.gif)
+    center no-repeat #e19a2e;
+}
+
+.done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

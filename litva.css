@@ -1,0 +1,967 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  margin: 0px 170px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.travel {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #000;
+}
+.loc-cont {
+  max-width: 720px;
+  display: flex;
+  justify-content: flex-end;
+}
+.location {
+  max-width: 35%;
+  margin-right: 3rem;
+}
+.contacts {
+  font-weight: 700;
+  max-width: 27%;
+  display: flex;
+}
+.box {
+  margin: 0px 180px;
+  max-width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 3px 10px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+.search-box {
+  background: rgba(207, 207, 207, 0.34);
+  width: 200px;
+  border: 2px solid grey;
+  border-radius: 100px;
+  padding: 0px 10px;
+}
+.search {
+  width: 85%;
+  background: none;
+  border: none;
+  float: left;
+  outline: none;
+  color: #555;
+}
+.search-btn {
+  float: right;
+}
+.header-nav {
+  border-radius: 100px;
+  width: 1123px;
+  padding: 5px;
+  margin: 0px 29px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 99%;
+}
+.title-box {
+  margin-top: 40px;
+  background-position: center;
+  background-size: auto;
+  font-family: "Montserrat";
+  font-weight: 900;
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orders {
+  background-image: url(images/visa-to-litva.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title-text {
+  width: 25ch;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.popular-destinations h5 {
+  margin: 30px auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+.sm-countries {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: 20px 100px;
+}
+.sm-countries svg {
+  margin-top: 20px;
+}
+.sm-countries p {
+  margin: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.guide-box-title {
+  margin-top: 50px;
+  margin-left: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+.guide-box {
+  margin-top: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.visa-to-litva-box {
+  width: 70%;
+  margin: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.card-body {
+  margin: 30px 13px 0px;
+}
+.visa-box-img {
+  transition: 1.5s ease;
+  opacity: 70%;
+  float: left;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.visa-box-img:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1.4s ease;
+}
+.visa-box-title {
+  /* margin-left: 15px; */
+  margin-top: -15px;
+  max-width: 55%;
+  float: right;
+}
+.card-title {
+  font-style: normal;
+  max-width: 80%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+.visa-box-img-2 {
+  margin-top: 20px;
+  opacity: 70%;
+  transition: 1s;
+  float: right;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.visa-box-img-2:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+.visa-box-title-2 {
+  margin-top: -10px;
+  max-width: 55%;
+  float: left;
+}
+.card-body-2 {
+  margin: 50px 30px;
+  text-align: right;
+}
+.card-text {
+  margin-top: 15px;
+  line-height: 17px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.line {
+  font-size: 13px;
+}
+.needy {
+  line-height: 14px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.text-decoration {
+  /* text-align: rights; */
+  line-height: 10px;
+  text-decoration-line: underline;
+}
+.card-text-longer {
+  margin: -20px 45px;
+  /* margin: 40px auto; */
+  max-width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+.card-text-cost {
+  line-height: 0px;
+}
+.news-card {
+  margin: 0 20px 30px;
+  width: 304px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.card-news-body {
+  margin: 0 15px;
+}
+.margin-news {
+  padding-bottom: -4px;
+  padding-top: 10px;
+  border-bottom: 0.4px solid #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+}
+.know-more {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 13px;
+}
+.appointment-box {
+  margin: 100px auto;
+  border-radius: 10px;
+  max-width: 75vw;
+  background: #345f87;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 50px;
+  position: relative;
+}
+.appointment-title {
+  max-width: 35ch;
+  color: #fff;
+  margin: 1em 0 0.5em 1.6em;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.appointment-details {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.appointment-contacts {
+  margin: 17px 10px;
+  padding: 20px;
+}
+#fullname {
+  width: 180px;
+  height: 39px;
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.51);
+}
+#appointment_contacts {
+  border: none;
+  outline: none;
+  width: 240px;
+  height: 39px;
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.51);
+}
+#book-appointment-btn {
+  width: 170px;
+  height: 39px;
+  margin-left: 1em;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  background-color: yellowgreen;
+  cursor: pointer;
+  transition: 0.2s;
+  background: #f2994a;
+  box-shadow: 0px 4px 10px #f2994a;
+  color: #ffffff;
+}
+#book-appointment-btn:active {
+  transform: scale(1.1);
+}
+#booking-appointment-error {
+  color: red;
+  margin-left: 30px;
+}
+.appointment-display-img {
+  position: absolute;
+  bottom: -2em;
+  right: -3em;
+  width: 415px;
+  height: 415px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.appointment-display-img img {
+  width: 100%;
+  height: 100%;
+}
+.box-2 {
+  min-width: 100%;
+  background: #fcff60;
+  height: 61px;
+}
+.footer-nav {
+  margin: 13px auto;
+  padding-top: 13px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.link-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 124.9%;
+  letter-spacing: 0.185em;
+  color: #000 !important;
+}
+.info-footer {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  background-image: url(images/ocean.png);
+  height: 35vh;
+  min-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.top-btn-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 5px;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+}
+.top-btn {
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
+.top-btn:hover {
+  color: #000;
+}
+.loc-footer {
+  margin: 50px 0px;
+  width: 240px;
+  color: #fff;
+}
+.contacts-footer {
+  font-weight: 700;
+  display: flex;
+}
+.email-box {
+  margin-top: 80px;
+  width: 220px;
+  color: #000;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.email {
+  display: flex;
+  justify-content: space-around;
+}
+.social-media {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.insta-icon {
+  margin-top: -8px;
+}
+.copyright {
+  margin-top: 60px;
+  width: 300px;
+  color: #fff;
+}
+.logo-mobile {
+  display: none;
+}
+.social-media-box-mobile {
+  display: none;
+}
+.burger-btn {
+  display: none;
+}
+.search-box-mobile {
+  display: none;
+}
+.travel-mobile {
+  display: none;
+}
+
+@media (max-width: 1320px) {
+  .header {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+    padding: 15px 25px;
+    text-align: end;
+  }
+  .travel {
+    font-size: 18px;
+  }
+  .travel-mobile {
+    display: block;
+    color: #000 !important;
+    position: absolute;
+    left: 19%;
+    bottom: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    transition: 0.3s ease;
+  }
+  .travel-mobile:hover {
+    color: #b95334 !important;
+  }
+  .logo-mobile img {
+    width: 150px;
+  }
+  .logo-mobile p {
+    font-size: 14px;
+  }
+  .burger-btn {
+    position: fixed;
+    display: block;
+    top: 20px;
+    left: 30px;
+    color: #b95334;
+    z-index: 2;
+  }
+  #nav-box.active {
+    display: block;
+    position: fixed;
+    top: 12px;
+    left: -10rem;
+    bottom: 10px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .header-nav {
+    background-color: rgb(223, 223, 228);
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 330px;
+    height: 100vh;
+    width: 270px;
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .nav-item {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+  }
+  .nav-item a {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+  .nav-item a:hover {
+    color: #fff !important;
+    background-color: #b95334;
+  }
+  .search-box {
+    display: none;
+  }
+  .search-box-mobile {
+    display: block;
+    margin: 40px 10px 0 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background: rgba(200, 111, 63, 0.733);
+  }
+  .search {
+    color: white;
+  }
+  .search-btn {
+    color: white;
+  }
+  .guide-box {
+    margin-left: 30px;
+  }
+  .news-card {
+    margin-bottom: 750px;
+  }
+  .appointment-display-img {
+    display: none;
+  }
+  .appointment-box {
+    padding: 30px 0 30px 10px;
+    width: 70vw;
+  }
+  .appointment-details {
+    width: 789px;
+  }
+  .visa-to-litva-box {
+    width: 75%;
+  }
+  .card-body {
+    display: block;
+    margin: 40px 0%;
+    max-width: 100%;
+  }
+  .visa-box-img {
+    margin: 0 26%;
+  }
+  .visa-box-title {
+    margin: 30px -80px;
+    min-width: 100%;
+  }
+  .card-text-longer {
+    margin-top: -50px;
+  }
+  .card-body-2 {
+    display: block;
+    margin: 40px 80px;
+    max-width: 100%;
+  }
+  .visa-box-title-2 {
+    margin-left: 20px;
+    margin-top: 10%;
+    max-width: 100%;
+    text-align: left;
+  }
+  .visa-box-img-2 {
+    margin: 0 23% 0 15%;
+  }
+  .card-text-longer {
+    margin-top: -50px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .header {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+    padding: 15px 55px;
+    text-align: end;
+  }
+  .travel {
+    font-size: 15px;
+  }
+  .logo-mobile img {
+    width: 150px;
+  }
+  .logo-mobile p {
+    font-size: 12px;
+  }
+  .burger-btn {
+    position: fixed;
+    display: block;
+    top: 20px;
+    left: 30px;
+    color: #b95334;
+    z-index: 2;
+  }
+  #nav-box.active {
+    display: block;
+    position: fixed;
+    top: 12px;
+    left: -10rem;
+    bottom: 10px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .header-nav {
+    background-color: rgb(223, 223, 228);
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 330px;
+    height: 100vh;
+    width: 230px;
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .nav-item {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+  }
+  .nav-item a {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+  .nav-item a:hover {
+    color: #fff !important;
+    background-color: #b95334;
+  }
+  .search-box {
+    display: none;
+  }
+
+  .search-box-mobile {
+    display: block;
+    margin: 40px 10px 0 30px;
+    border: 1.5px solid black;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background: rgba(200, 111, 63, 0.733);
+  }
+  .search {
+    color: white;
+  }
+  .search-btn {
+    color: white;
+  }
+  .guide-box {
+    display: block;
+  }
+  .news-card {
+    margin: 40px 0 40px 7.5%;
+  }
+  .appointment-box {
+    padding: 0;
+  }
+  .appointment-details {
+    width: 719px;
+  }
+  .appointment-contacts input {
+    background-color: rebeccapurple;
+    margin: 10px auto;
+    display: inline-block;
+  }
+  .appointment-display-img {
+    display: none;
+  }
+  .accebilities-box {
+    margin-top: 0;
+  }
+  #fullname {
+    width: 40%;
+    margin-left: 0;
+  }
+  #appointment_contacts {
+    width: 58%;
+    margin-left: 0;
+  }
+  #book-appointment-btn {
+    width: 60%;
+    margin: 1% 20% 0;
+  }
+  .title-text {
+    font-size: 44px;
+  }
+  .visa-to-litva-box {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .card-body {
+    display: block;
+    margin: 40px 10%;
+    max-width: 100%;
+  }
+  .visa-box-img {
+    margin: 0 20% 0 16%;
+  }
+  .visa-box-title {
+    margin: 30px 0 0 20px;
+    max-width: 100%;
+  }
+  .card-text-longer {
+    margin-top: -50px;
+  }
+  .card-body-2 {
+    display: block;
+    margin: 40px 100px;
+  }
+  .visa-box-title-2 {
+    margin-left: 20px;
+    margin-top: 10%;
+    max-width: 100%;
+    text-align: left;
+  }
+  .visa-box-img-2 {
+    margin: 0 14% 0;
+  }
+  .card-text-longer {
+    margin-top: -50px;
+    max-width: 100%;
+  }
+  .info-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5%;
+  }
+  .social-media-box {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+  .social-media-box-mobile {
+    display: block;
+    margin: 10% 0 0;
+    width: 40%;
+  }
+  .insta-icon-mobile {
+    margin: 1px 7px 0 0;
+    width: 59px;
+    height: 59px;
+  }
+  .facebook-mobile {
+    margin-left: 7px;
+  }
+  .sm-countries {
+    display: none;
+  }
+  .popular-destinations {
+    display: none;
+  }
+  .box-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 778px) {
+  .top-btn-box {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    display: none;
+  }
+  .box {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+    padding: 20px 25px;
+  }
+  .travel {
+    font-size: 15px;
+  }
+  .logo-mobile img {
+    width: 150px;
+  }
+  .logo-mobile p {
+    font-size: 12px;
+  }
+  .burger-btn {
+    position: fixed;
+    display: block;
+    top: 20px;
+    left: 30px;
+    color: #b95334;
+  }
+  #nav-box.active {
+    display: block;
+    position: fixed;
+    top: 12px;
+    left: -10.5rem;
+    bottom: 10px;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .header-nav {
+    background-color: rgb(223, 223, 228);
+    border-radius: 0;
+    padding-top: 30px;
+    padding-bottom: 330px;
+    height: 100vh;
+    width: 230px;
+    margin-left: 0;
+    min-width: 100%;
+  }
+  .nav-item {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+  }
+  .nav-item a {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+  .nav-item a:hover {
+    color: #fff !important;
+    background-color: #b95334;
+  }
+  .search-box {
+    display: none;
+  }
+  .search-box-mobile {
+    display: block;
+    margin: 40px 10px 0 30px;
+    border: 1.5px solid black;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background: rgba(200, 111, 63, 0.733);
+  }
+  .search {
+    color: white;
+  }
+  .search-btn {
+    color: white;
+  }
+  .visa-to-litva-box {
+    width: 90%;
+  }
+  .card-body {
+    display: block;
+    max-width: 100%;
+  }
+  .visa-box-img {
+    margin-left: -40px;
+  }
+  .visa-box-title {
+    margin-left: 20px;
+    margin-top: 10%;
+    max-width: 100%;
+  }
+  .card-text-longer {
+    margin-top: -50px;
+  }
+  .card-body-2 {
+    display: block;
+    margin: 40px;
+    max-width: 100%;
+  }
+  .visa-box-title-2 {
+    margin-top: 10%;
+    margin-left: 20px;
+    max-width: 100%;
+    text-align: left;
+  }
+  .visa-box-img-2 {
+    margin-right: -20px;
+  }
+  .card-text-longer {
+    margin-top: -50px;
+    max-width: 100%;
+  }
+  .news-card {
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: center;
+  }
+  .appointment-box {
+    padding: 0;
+  }
+  .appointment-contacts input {
+    background-color: rebeccapurple;
+    margin: 10px auto;
+    display: block;
+    width: 400px;
+  }
+  .appointment-display-img {
+    display: none;
+  }
+  .accebilities-box {
+    margin-top: 0;
+  }
+  #fullname,
+  #appointment_contacts,
+  #book-appointment-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+  .info-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5%;
+  }
+  .social-media-box {
+    display: none;
+  }
+  .copyright {
+    display: none;
+  }
+  .social-media-box-mobile {
+    display: block;
+    margin: 10% 0 0;
+    width: 40%;
+  }
+  .insta-icon-mobile {
+    margin: 1px 7px 0 0;
+    width: 59px;
+    height: 59px;
+  }
+  .facebook-mobile {
+    margin-left: 7px;
+  }
+}
